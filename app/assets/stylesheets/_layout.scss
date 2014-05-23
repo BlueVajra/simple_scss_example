@@ -1,0 +1,61 @@
+
+body{
+  height:100%
+}
+html{
+  height:100%;
+}
+#body_container{
+  min-height:100%;
+  position:relative;
+}
+header{
+  padding: 0 .5em;
+}
+main{
+
+}
+footer{
+  height:5em;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding:0 .5em;
+  background-color:#2E2F30;
+}
+main .container{
+  padding-bottom:6em;
+}
+main .container, footer .container, header nav{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+footer .container{
+  padding:1em 0;
+}
+
+
+
+main nav{
+  width:25%;
+  float:right;
+  background-color:#CCCCCC;
+
+}
+main section{
+  width:75%;
+  padding-right:4em;
+}
+@media (max-width: 600px) {
+  main nav{
+    width:100%;
+    float:none;
+    background-color:#CCCCCC;
+
+  }
+  main section{
+    width:100%;
+    padding-right:0;
+  }
+}
